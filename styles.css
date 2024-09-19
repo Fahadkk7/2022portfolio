@@ -1,0 +1,281 @@
+.body{
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.large{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 150px;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3%;
+  background: radial-gradient(black,rgb(0, 5, 37));
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar h2{
+  font-size: 3em;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+
+.navlist{
+  padding: 0%;
+  margin: 0%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlist a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.navlist li{
+  padding: 0px;
+  font-size: 1.4em;
+  display: inline-block;
+  margin-inline: 40px ;
+  margin-block: 15px;
+  font-weight: 600;
+  
+}
+
+.navlist li:hover{
+ color: rgb(216, 203, 255);
+}
+
+hr{
+  margin: 0%;
+}
+
+
+.hero{
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  background-color:whitesmoke;
+}
+
+
+
+.headerText{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.headerText h1{
+  font-size: 2.5em;
+}
+.headerText p{
+  font-size: 1.2em;
+}
+
+
+
+.bearContainer{
+  width: 300px; /* Adjust the size as needed */
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%; /* Makes the shape circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 10px #1b006a66;
+}
+.picture{
+  width: 250px;
+  height: auto;
+  background-color: whitesmoke;
+  
+}
+
+
+
+.aboutmeText{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 15%;
+  background: radial-gradient(black,rgb(13, 0, 47));
+  padding-block: 7%;
+}
+.aboutmeText h1,.aboutmeText p{
+  color: whitesmoke;
+}
+
+.aboutmeText h1{
+  font-size: 2.5em;
+}
+.aboutmeText p{
+  font-size: 1.2em;
+}
+
+
+.education{
+  display: flex;
+  padding-block: 7%;
+  justify-content: space-between;
+  background: radial-gradient(whitesmoke,rgb(255, 255, 255));
+}
+.educationText{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding-inline: 150px;
+}
+
+.educationText h1{
+  font-size: 2.5em;
+}
+
+.educationText p{
+  font-size: 1.2em;
+}
+
+.underline{
+  height: 4px;
+  width: 45%;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: 0.4s;
+  box-shadow: inset 0 0 0 .2em tomato,
+              inset 0 0 1em .3em tomato,
+              inset 1em 1em .4em black(.6),
+              0 0 0 .2em tomato,
+              0 0 1em .3em tomato,
+              1em 1em .4em black(.6)
+}
+
+.map{
+  margin-right:150px ;
+  margin-block:40px ;
+  box-shadow: 0px 3px 10px #1b006a66;
+}
+
+
+.projects{
+  display: flex;
+  padding-block: 7%;
+  justify-content: space-between;
+  background: radial-gradient(whitesmoke,rgb(255, 255, 255));
+}
+
+.projectList{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding-inline: 150px;
+}
+
+.projectItem{
+  width: 200px;
+  padding-block: 21px;
+  padding-inline: 70px;
+  color: rgb(255, 255, 255);
+  background: radial-gradient(black,rgb(13, 0, 47));
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.projectItem:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.projectText{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding-inline: 150px;
+}
+
+.projectText h1{
+  font-size: 2.5em;
+}
+
+.projectText p{
+  font-size: 1.2em;
+}
+
+
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  padding-block: 7%;
+  background: radial-gradient(black,rgb(13, 0, 47));
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 150px;
+}
+
+.contactForm label{
+  color: whitesmoke;
+  padding-block:10px;
+}
+.contactForm input, .contactForm textarea{
+  padding: 8px;
+  width: 310px;
+  resize: none;
+}
+
+.contactForm textarea{
+  min-height: 350px;
+  
+}
+
+.retroSpaceship{
+  width: 250px;
+  padding-inline: 150px;
+}
+
+
+
+
+.footer {
+  background: radial-gradient(black,rgb(0, 5, 37));       
+  color: white;                  
+  text-align: center;            
+  padding: 20px 0;               
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: whitesmoke;                   
+}
+
+.footer .socials a {
+  color: whitesmoke;                   
+  text-decoration: none;
+  margin: 0 10px;                
+}
+
+.footer .socials a:hover {
+  color: whitesmoke;                  
+}
